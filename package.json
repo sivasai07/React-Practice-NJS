@@ -1,0 +1,27 @@
+{
+  "name": "react-practice",
+  "version": "1.0.0",
+  "description": "This is my react learning",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sivasai07/React-Practice-NJS.git"
+  },
+  "author": "siva sai",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sivasai07/React-Practice-NJS/issues"
+  },
+  "homepage": "https://github.com/sivasai07/React-Practice-NJS#readme",
+  "devDependencies": {
+    "parcel": "^2.16.4"
+  },
+  "dependencies": {
+    "react": "^19.2.8",
+    "react-dom": "^19.2.8"
+  }
+}
