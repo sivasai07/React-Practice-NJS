@@ -100,6 +100,11 @@ body {
    Restaurant Card
 ========================= */
 
+.res-card-link {
+  text-decoration: none;
+  color: inherit;
+}
+
 .res-card {
   width: 250px;
   background: white;
@@ -246,4 +251,19 @@ body {
   100% {
     background-position: -100% 0;
   }
+}
+
+.user-card {
+  border: 1px solid black;
+  padding: 15px;
+  margin: 20px;
+  width: 250px;
+  border-radius: 8px;
+  background-color: #f5f5f5;
+}
+
+.user-card h2,
+.user-card h3,
+.user-card h4 {
+  margin: 8px 0;
 }
