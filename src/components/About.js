@@ -5,7 +5,7 @@ import UserClass from "./UserClass";
 class About extends React.Component {
     constructor(props){
         super(props);
-        console.log("Parent constructor");
+        //console.log("Parent constructor");
     }
 
     componentDidMount(){
@@ -21,8 +21,7 @@ class About extends React.Component {
         <h2>This is Food App web app</h2>
 
         {/* <User name={"Sivasai(fn)"} /> */}
-        <UserClass name={"First"} location={'Guntur'} />
-        <UserClass name={"Second"} location={'Gnt'} />
+        <UserClass name={"Sivasai"} location={'Guntur'} />
       </div>
     );
   }

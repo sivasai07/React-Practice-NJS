@@ -18,11 +18,14 @@
   },
   "homepage": "https://github.com/sivasai07/React-Practice-NJS#readme",
   "devDependencies": {
-    "parcel": "^2.16.4"
+    "@tailwindcss/postcss": "^4.3.3",
+    "parcel": "^2.16.4",
+    "postcss": "^8.5.25"
   },
   "dependencies": {
     "react": "^19.2.8",
     "react-dom": "^19.2.8",
-    "react-router-dom": "^6.28.0"
+    "react-router-dom": "^6.28.0",
+    "tailwindcss": "^4.3.3"
   }
 }

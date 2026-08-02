@@ -3,6 +3,9 @@ export const LOGO_URL = "https://static.vecteezy.com/system/resources/previews/0
 export const CDN_URL =
 "https://media-assets.swiggy.com/swiggy/image/upload/";
 
+export const RESTAURANT_API =
+  "https://foodfire.onrender.com/api/restaurants?lat=21.1702401&lng=72.83106070000001&page_type=DESKTOP_WEB_LISTING";
+
 export const MENU_API =
-"https://www.swiggy.com/dapi/menu/pl?page-type=REGULAR_MENU&complete-menu=true&lat=17.2402827&lng=78.429358&restaurantId=";
+  "https://foodfire.onrender.com/api/menu?page-type=REGULAR_MENU&complete-menu=true&lat=21.1702401&lng=72.83106070000001&submitAction=ENTER&restaurantId=";
 
